@@ -1,5 +1,6 @@
 {
   "name": "homeworkdb_remake",
+  "homepage": "https://RO03M.github.io/homeworkdb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
