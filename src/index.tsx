@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { RouterProvider, createMemoryRouter, createBrowserRouter, BrowserRouter } from 'react-router-dom';
+import { RouterProvider, createMemoryRouter, createHashRouter, HashRouter } from 'react-router-dom';
 import { initializeApp } from "firebase/app";
 
 const root = ReactDOM.createRoot(
@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App/>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
