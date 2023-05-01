@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import RoutesContainer from './routes/routes';
+import { ThemeProvider } from '@emotion/react';
+import { Box, createTheme } from '@mui/material';
+import NavBar from './components/NavBar';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+	const theme = createTheme();
+
+	return (
+		<ThemeProvider
+			theme={theme}
+		>
+			<Box>
+				<NavBar/>
+				<RoutesContainer/>
+			</Box>
+		</ThemeProvider>
+	);
 }
 
 export default App;
