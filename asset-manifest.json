@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/homeworkdb/static/css/main.e6c13ad2.css",
-    "main.js": "/homeworkdb/static/js/main.17ff750e.js",
-    "static/js/787.0217e119.chunk.js": "/homeworkdb/static/js/787.0217e119.chunk.js",
-    "index.html": "/homeworkdb/index.html",
-    "main.e6c13ad2.css.map": "/homeworkdb/static/css/main.e6c13ad2.css.map",
-    "main.17ff750e.js.map": "/homeworkdb/static/js/main.17ff750e.js.map",
-    "787.0217e119.chunk.js.map": "/homeworkdb/static/js/787.0217e119.chunk.js.map"
+    "main.css": "/homeworkdb_remake/static/css/main.e6c13ad2.css",
+    "main.js": "/homeworkdb_remake/static/js/main.5a3223ea.js",
+    "static/js/787.0217e119.chunk.js": "/homeworkdb_remake/static/js/787.0217e119.chunk.js",
+    "index.html": "/homeworkdb_remake/index.html",
+    "main.e6c13ad2.css.map": "/homeworkdb_remake/static/css/main.e6c13ad2.css.map",
+    "main.5a3223ea.js.map": "/homeworkdb_remake/static/js/main.5a3223ea.js.map",
+    "787.0217e119.chunk.js.map": "/homeworkdb_remake/static/js/787.0217e119.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.17ff750e.js"
+    "static/js/main.5a3223ea.js"
   ]
 }
